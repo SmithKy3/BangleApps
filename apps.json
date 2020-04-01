@@ -836,15 +836,16 @@
       {"name":"widver.wid.js","url":"widget.js"}
     ]
   },
-  { "id": "hextest",
-    "name": "Hexy hexy",
+  { "id": "hexclock",
+    "name": "Hexagon clock",
     "icon": "hex.png",
     "version":"0.01",
-    "description": "A spinning hexagon to test app development and getting used to the graphics API.",
-    "tags": "",
+    "description": "A simple clock against a hexagon backdrop that is rotating through three dimensions. In short, a little piece of hexy wexy timey wimey.",
+    "tags": "clock",
+    "type": "clock",
     "storage": [
-      {"name":"hex.app.js","url":"hex.js"},
-      {"name":"hex.img","url":"hex-icon.js"}
+      {"name":"hexclock.app.js","url":"app.js"},
+      {"name":"hexclock.img","url":"app-icon.js","evaluate":true}
     ]
   }
 ]
