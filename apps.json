@@ -352,18 +352,6 @@
       {"name":"stetho.img","url":"stetho-icon.js","evaluate":true}
     ]
   },
-  { "id": "swatch",
-    "name": "Stopwatch",
-    "icon": "stopwatch.png",
-    "version":"0.03",
-    "description": "Simple stopwatch with Lap Time logging to a JSON file",
-    "tags": "health",
-    "allow_emulator":true,
-    "storage": [
-      {"name":"swatch.app.js","url":"stopwatch.js"},
-      {"name":"swatch.img","url":"stopwatch-icon.js","evaluate":true}
-    ]
-  },
   { "id": "hidmsic",
     "name": "Bluetooth Music Controls",
     "shortName": "Music Control",
@@ -837,33 +825,6 @@
       {"name":"widid.wid.js","url":"widget.js"}
     ]
   },
-  { 
-    "id": "grocery",
-    "name": "Grocery",
-    "icon": "grocery.png",
-    "version":"0.01",
-    "description": "Simple grocery list - Display a list of product and track if you already put them in your cart.",
-    "tags": "tool,outdoors",
-    "type": "app",
-    "custom":"grocery.html",
-    "storage": [
-      {"name":"grocery"},
-      {"name":"grocery.app.js"}
-    ]
-  },
-  { "id": "marioclock",
-    "name": "Mario Clock",
-    "icon": "marioclock.png",
-    "version":"0.01",
-    "description": "Animated Mario clock, jumps to change the time!",
-    "tags": "clock,mario,retro",
-    "type": "clock",
-    "allow_emulator":true,
-    "storage": [
-      {"name":"marioclock.app.js","url":"marioclock-app.js"},
-      {"name":"marioclock.img","url":"marioclock-icon.js","evaluate":true}
-    ]
-  },
   { "id": "widver",
     "name": "Firmware Version Widget",
     "icon": "widget.png",
@@ -873,6 +834,17 @@
     "type":"widget",
     "storage": [
       {"name":"widver.wid.js","url":"widget.js"}
+    ]
+  },
+  { "id": "hextest",
+    "name": "Hexy hexy",
+    "icon": "hex.png",
+    "version":"0.01",
+    "description": "A spinning hexagon to test app development and getting used to the graphics API.",
+    "tags": "",
+    "storage": [
+      {"name":"hex.app.js","url":"hex.js"},
+      {"name":"hex.img","url":"hex-icon.js"}
     ]
   }
 ]
